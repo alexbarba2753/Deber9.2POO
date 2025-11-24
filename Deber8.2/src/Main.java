@@ -15,7 +15,7 @@ public class Main {
             System.out.println("Error saldo negativo: " + e.getMessage());
         }
 
-        Banco banco = new Banco("Banco GPT");
+        Banco banco = new Banco("Banco Prueba");
 
         // Crear 6 cuentas
         CuentaAhorros a1 = new CuentaAhorros(Banco.generarNumeroCuenta(), "Luis", 200, 0.02);
